@@ -1,3 +1,2 @@
 [build]
   publish = "."
-  command = "echo WB105PV6-6y3n8q5m-PUBLIC-REPO-PRIVATE-LOGS"
